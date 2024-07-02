@@ -1,0 +1,130 @@
+{
+  "liblabVersion": "2.1.17",
+  "date": "2024-07-02T20:09:21.665Z",
+  "config": {
+    "specUrl": "/Users/shahar/Desktop/liblab-hub-sdks/nhl/nhl.yaml",
+    "deliveryMethods": ["zip"],
+    "languages": ["python"],
+    "sdkName": "nhl",
+    "sdkVersion": "1.0.0",
+    "baseUrl": "https://api-web.nhle.com",
+    "auth": [],
+    "languageOptions": {
+      "python": {
+        "pypiPackageName": "nhl"
+      },
+      "typescript": {
+        "compilerOptions": {}
+      }
+    },
+    "authentication": {},
+    "environments": [
+      {
+        "name": "production",
+        "url": "https://api-web.nhle.com"
+      }
+    ],
+    "environmentVariables": [],
+    "retry": {
+      "enabled": true,
+      "maxAttempts": 3,
+      "retryDelay": 150,
+      "maxDelay": 5000,
+      "retryDelayJitter": 50,
+      "backOffFactor": 2,
+      "httpCodesToRetry": [500, 502, 503, 504],
+      "httpMethodsToRetry": ["GET", "POST", "PUT", "DELETE"]
+    },
+    "generateEnv": true,
+    "multiTenant": true,
+    "includeWatermark": false,
+    "inferServiceNames": false,
+    "usesFormData": false,
+    "privateRepo": false,
+    "reservedKeywords": [],
+    "githubRef": "",
+    "fileOutput": "/tmp",
+    "tempDir": "output",
+    "pypiPackageName": "nhl",
+    "language": "python",
+    "deliveryMethod": "zip",
+    "hooks": {
+      "enabled": false,
+      "sourceDir": ""
+    },
+    "httpLibrary": {
+      "name": "axios",
+      "packages": {
+        "axios": "^1.6.8"
+      },
+      "languages": ["typescript"]
+    },
+    "customQueries": {
+      "paths": [],
+      "rawQueries": [],
+      "queriesData": []
+    },
+    "devContainer": false,
+    "includeOptionalSnippetParameters": true
+  },
+  "files": [
+    "src/nhl/models/base.py",
+    "src/nhl/models/utils/json_map.py",
+    "src/nhl/models/__init__.py",
+    "src/nhl/services/__init__.py",
+    "src/nhl/__init__.py",
+    "src/nhl/net/__init__.py",
+    "src/nhl/net/headers/__init__.py",
+    "src/nhl/net/transport/__init__.py",
+    "src/nhl/hooks/__init__.py",
+    "src/nhl/net/environment/__init__.py",
+    "src/nhl/net/request_chain/__init__.py",
+    "src/nhl/net/request_chain/handlers/__init__.py",
+    "src/nhl/net/transport/request.py",
+    "src/nhl/net/transport/response.py",
+    "src/nhl/net/transport/request_error.py",
+    "src/nhl/sdk.py",
+    "src/nhl/net/transport/serializer.py",
+    "src/nhl/services/utils/validator.py",
+    "src/nhl/services/utils/base_service.py",
+    "pyproject.toml",
+    ".gitignore",
+    "src/nhl/models/utils/cast_models.py",
+    "src/nhl/net/transport/utils.py",
+    "src/nhl/hooks/hook.py",
+    "install.sh",
+    "install.cmd",
+    "examples/install.sh",
+    "examples/install.cmd",
+    "src/nhl/net/headers/base_header.py",
+    "src/nhl/net/environment/environment.py",
+    "src/nhl/net/request_chain/request_chain.py",
+    "src/nhl/net/request_chain/handlers/base_handler.py",
+    "src/nhl/net/request_chain/handlers/http_handler.py",
+    "src/nhl/net/request_chain/handlers/hook_handler.py",
+    "src/nhl/net/request_chain/handlers/retry_handler.py",
+    "examples/sample.py",
+    ".env.example",
+    "/examples/.env.example",
+    "src/nhl/services/utils/default_headers.py",
+    "src/nhl/services/player_spotlight.py",
+    "src/nhl/services/scoreboard.py",
+    "documentation/services/PlayerSpotlightService.md",
+    "documentation/services/ScoreboardService.md",
+    "src/nhl/services/skater_stats.py",
+    "src/nhl/services/goalie_stats.py",
+    "src/nhl/services/roster.py",
+    "documentation/services/SkaterStatsService.md",
+    "documentation/services/GoalieStatsService.md",
+    "documentation/services/RosterService.md",
+    "documentation/services/PlayerService.md",
+    "documentation/services/StandingsService.md",
+    "documentation/services/ClubStatsService.md",
+    "documentation/services/ScheduleService.md",
+    "src/nhl/services/player.py",
+    "src/nhl/services/standings.py",
+    "src/nhl/services/club_stats.py",
+    "src/nhl/services/schedule.py",
+    "README.md"
+  ]
+}
